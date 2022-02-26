@@ -46,6 +46,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		916A921F27C9A7EB000C30E0 /* CelulasTela1 */ = {
+			isa = PBXGroup;
+			children = (
+				91EB9F2A27C87F2700B68D42 /* CadaUmTableViewCell.swift */,
+				91EB9F2B27C87F2700B68D42 /* CadaUmTableViewCell.xib */,
+			);
+			path = CelulasTela1;
+			sourceTree = "<group>";
+		};
+		916A922027C9A80C000C30E0 /* Aplication */ = {
+			isa = PBXGroup;
+			children = (
+				91EB9EFF27C861CA00B68D42 /* AppDelegate.swift */,
+				91EB9F0127C861CA00B68D42 /* SceneDelegate.swift */,
+				91EB9F0A27C861CB00B68D42 /* LaunchScreen.storyboard */,
+				91EB9F0D27C861CB00B68D42 /* Info.plist */,
+				91EB9F0827C861CB00B68D42 /* Assets.xcassets */,
+				91EB9F1327C86ED100B68D42 /* fonts */,
+			);
+			path = Aplication;
+			sourceTree = "<group>";
+		};
 		91EB9EF327C861CA00B68D42 = {
 			isa = PBXGroup;
 			children = (
@@ -65,18 +87,12 @@
 		91EB9EFE27C861CA00B68D42 /* resumin */ = {
 			isa = PBXGroup;
 			children = (
-				91EB9F1327C86ED100B68D42 /* fonts */,
-				91EB9EFF27C861CA00B68D42 /* AppDelegate.swift */,
-				91EB9F0127C861CA00B68D42 /* SceneDelegate.swift */,
+				916A922027C9A80C000C30E0 /* Aplication */,
+				916A921F27C9A7EB000C30E0 /* CelulasTela1 */,
 				91EB9F0327C861CA00B68D42 /* HomeViewController.swift */,
 				91EB9F0527C861CA00B68D42 /* Main.storyboard */,
-				91EB9F0827C861CB00B68D42 /* Assets.xcassets */,
-				91EB9F0A27C861CB00B68D42 /* LaunchScreen.storyboard */,
-				91EB9F0D27C861CB00B68D42 /* Info.plist */,
 				91EB9F2627C8766500B68D42 /* ResumosViewController.swift */,
 				91EB9F2727C8766500B68D42 /* ResumosViewController.xib */,
-				91EB9F2A27C87F2700B68D42 /* CadaUmTableViewCell.swift */,
-				91EB9F2B27C87F2700B68D42 /* CadaUmTableViewCell.xib */,
 			);
 			path = resumin;
 			sourceTree = "<group>";
