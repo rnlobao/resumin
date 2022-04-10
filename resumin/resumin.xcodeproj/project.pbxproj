@@ -9,17 +9,19 @@
 /* Begin PBXBuildFile section */
 		08E32E85612B90962AE95FF4 /* Pods_resumin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6A8A5F9264CC71F769F209E /* Pods_resumin.framework */; };
 		9102718028026D2300EC1103 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9102717F28026D2300EC1103 /* Colors.xcassets */; };
+		91113E4F28035C9100F9CFA4 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91113E4E28035C9100F9CFA4 /* HomeViewModel.swift */; };
+		91113E532803624600F9CFA4 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91113E512803624600F9CFA4 /* OnboardingViewController.swift */; };
+		91113E542803624600F9CFA4 /* OnboardingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91113E522803624600F9CFA4 /* OnboardingViewController.xib */; };
+		91113E58280363A300F9CFA4 /* OnboardingPagesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91113E56280363A300F9CFA4 /* OnboardingPagesCollectionViewCell.swift */; };
+		91113E59280363A300F9CFA4 /* OnboardingPagesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91113E57280363A300F9CFA4 /* OnboardingPagesCollectionViewCell.xib */; };
+		91113E5B2803666400F9CFA4 /* OnboardingPageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91113E5A2803666400F9CFA4 /* OnboardingPageModel.swift */; };
 		916A922727C9AF1D000C30E0 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91EB9F1E27C86EEC00B68D42 /* Poppins-SemiBold.ttf */; };
-		916A922A27C9AF60000C30E0 /* LivroDoDiaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916A922827C9AF60000C30E0 /* LivroDoDiaTableViewCell.swift */; };
-		916A922B27C9AF60000C30E0 /* LivroDoDiaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 916A922927C9AF60000C30E0 /* LivroDoDiaTableViewCell.xib */; };
 		916A922D27C9B158000C30E0 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 916A922C27C9B158000C30E0 /* Poppins-Regular.ttf */; };
-		916A923027C9B4F6000C30E0 /* TextoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916A922E27C9B4F6000C30E0 /* TextoTableViewCell.swift */; };
-		916A923127C9B4F6000C30E0 /* TextoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 916A922F27C9B4F6000C30E0 /* TextoTableViewCell.xib */; };
 		916A923927C9BCA7000C30E0 /* IconsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916A923727C9BCA7000C30E0 /* IconsCollectionViewCell.swift */; };
 		916A923A27C9BCA7000C30E0 /* IconsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 916A923827C9BCA7000C30E0 /* IconsCollectionViewCell.xib */; };
 		916A923D27C9C400000C30E0 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916A923C27C9C400000C30E0 /* NetworkService.swift */; };
 		916A923F27C9C512000C30E0 /* ServicoDosLivros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916A923E27C9C512000C30E0 /* ServicoDosLivros.swift */; };
-		916A924127C9C716000C30E0 /* LivrosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916A924027C9C716000C30E0 /* LivrosModel.swift */; };
+		916A924127C9C716000C30E0 /* BooksModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916A924027C9C716000C30E0 /* BooksModel.swift */; };
 		91EB9F0027C861CA00B68D42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB9EFF27C861CA00B68D42 /* AppDelegate.swift */; };
 		91EB9F0227C861CA00B68D42 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB9F0127C861CA00B68D42 /* SceneDelegate.swift */; };
 		91EB9F0427C861CA00B68D42 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB9F0327C861CA00B68D42 /* StartViewController.swift */; };
@@ -28,24 +30,24 @@
 		91EB9F0C27C861CB00B68D42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91EB9F0A27C861CB00B68D42 /* LaunchScreen.storyboard */; };
 		91EB9F2827C8766500B68D42 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB9F2627C8766500B68D42 /* HomeViewController.swift */; };
 		91EB9F2927C8766500B68D42 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91EB9F2727C8766500B68D42 /* HomeViewController.xib */; };
-		91EB9F2C27C87F2700B68D42 /* ResumosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB9F2A27C87F2700B68D42 /* ResumosTableViewCell.swift */; };
-		91EB9F2D27C87F2700B68D42 /* CadaUmTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91EB9F2B27C87F2700B68D42 /* CadaUmTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6CD2029D0A7A340F3EE8D6AB /* Pods-resumin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-resumin.debug.xcconfig"; path = "Target Support Files/Pods-resumin/Pods-resumin.debug.xcconfig"; sourceTree = "<group>"; };
 		72C6235DCDBFF4A37C75CA5A /* Pods-resumin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-resumin.release.xcconfig"; path = "Target Support Files/Pods-resumin/Pods-resumin.release.xcconfig"; sourceTree = "<group>"; };
 		9102717F28026D2300EC1103 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
-		916A922827C9AF60000C30E0 /* LivroDoDiaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivroDoDiaTableViewCell.swift; sourceTree = "<group>"; };
-		916A922927C9AF60000C30E0 /* LivroDoDiaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LivroDoDiaTableViewCell.xib; sourceTree = "<group>"; };
+		91113E4E28035C9100F9CFA4 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		91113E512803624600F9CFA4 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		91113E522803624600F9CFA4 /* OnboardingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnboardingViewController.xib; sourceTree = "<group>"; };
+		91113E56280363A300F9CFA4 /* OnboardingPagesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPagesCollectionViewCell.swift; sourceTree = "<group>"; };
+		91113E57280363A300F9CFA4 /* OnboardingPagesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnboardingPagesCollectionViewCell.xib; sourceTree = "<group>"; };
+		91113E5A2803666400F9CFA4 /* OnboardingPageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPageModel.swift; sourceTree = "<group>"; };
 		916A922C27C9B158000C30E0 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
-		916A922E27C9B4F6000C30E0 /* TextoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextoTableViewCell.swift; sourceTree = "<group>"; };
-		916A922F27C9B4F6000C30E0 /* TextoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextoTableViewCell.xib; sourceTree = "<group>"; };
 		916A923727C9BCA7000C30E0 /* IconsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsCollectionViewCell.swift; sourceTree = "<group>"; };
 		916A923827C9BCA7000C30E0 /* IconsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IconsCollectionViewCell.xib; sourceTree = "<group>"; };
 		916A923C27C9C400000C30E0 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		916A923E27C9C512000C30E0 /* ServicoDosLivros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicoDosLivros.swift; sourceTree = "<group>"; };
-		916A924027C9C716000C30E0 /* LivrosModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivrosModel.swift; sourceTree = "<group>"; };
+		916A924027C9C716000C30E0 /* BooksModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksModel.swift; sourceTree = "<group>"; };
 		91EB9EFC27C861CA00B68D42 /* resumin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = resumin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91EB9EFF27C861CA00B68D42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91EB9F0127C861CA00B68D42 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,8 +59,6 @@
 		91EB9F1E27C86EEC00B68D42 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		91EB9F2627C8766500B68D42 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		91EB9F2727C8766500B68D42 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
-		91EB9F2A27C87F2700B68D42 /* ResumosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumosTableViewCell.swift; sourceTree = "<group>"; };
-		91EB9F2B27C87F2700B68D42 /* CadaUmTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CadaUmTableViewCell.xib; sourceTree = "<group>"; };
 		D6A8A5F9264CC71F769F209E /* Pods_resumin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_resumin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -82,18 +82,33 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		916A921F27C9A7EB000C30E0 /* CelulasTela2 */ = {
+		91113E502803622700F9CFA4 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
-				916A922827C9AF60000C30E0 /* LivroDoDiaTableViewCell.swift */,
-				916A922927C9AF60000C30E0 /* LivroDoDiaTableViewCell.xib */,
-				916A922E27C9B4F6000C30E0 /* TextoTableViewCell.swift */,
-				916A922F27C9B4F6000C30E0 /* TextoTableViewCell.xib */,
-				91EB9F2A27C87F2700B68D42 /* ResumosTableViewCell.swift */,
-				91EB9F2B27C87F2700B68D42 /* CadaUmTableViewCell.xib */,
-				916A923627C9B6D8000C30E0 /* Celulas Da Collection */,
+				91113E552803638400F9CFA4 /* OnboardingPagesCells */,
+				91113E512803624600F9CFA4 /* OnboardingViewController.swift */,
+				91113E522803624600F9CFA4 /* OnboardingViewController.xib */,
+				91113E5A2803666400F9CFA4 /* OnboardingPageModel.swift */,
 			);
-			path = CelulasTela2;
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		91113E552803638400F9CFA4 /* OnboardingPagesCells */ = {
+			isa = PBXGroup;
+			children = (
+				91113E56280363A300F9CFA4 /* OnboardingPagesCollectionViewCell.swift */,
+				91113E57280363A300F9CFA4 /* OnboardingPagesCollectionViewCell.xib */,
+			);
+			path = OnboardingPagesCells;
+			sourceTree = "<group>";
+		};
+		916A921F27C9A7EB000C30E0 /* BooksCells */ = {
+			isa = PBXGroup;
+			children = (
+				916A923727C9BCA7000C30E0 /* IconsCollectionViewCell.swift */,
+				916A923827C9BCA7000C30E0 /* IconsCollectionViewCell.xib */,
+			);
+			path = BooksCells;
 			sourceTree = "<group>";
 		};
 		916A922027C9A80C000C30E0 /* Aplication */ = {
@@ -121,21 +136,13 @@
 		916A922227C9A8AF000C30E0 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				916A921F27C9A7EB000C30E0 /* CelulasTela2 */,
+				916A921F27C9A7EB000C30E0 /* BooksCells */,
+				916A924027C9C716000C30E0 /* BooksModel.swift */,
 				91EB9F2627C8766500B68D42 /* HomeViewController.swift */,
-				916A924027C9C716000C30E0 /* LivrosModel.swift */,
 				91EB9F2727C8766500B68D42 /* HomeViewController.xib */,
+				91113E4E28035C9100F9CFA4 /* HomeViewModel.swift */,
 			);
 			path = Home;
-			sourceTree = "<group>";
-		};
-		916A923627C9B6D8000C30E0 /* Celulas Da Collection */ = {
-			isa = PBXGroup;
-			children = (
-				916A923727C9BCA7000C30E0 /* IconsCollectionViewCell.swift */,
-				916A923827C9BCA7000C30E0 /* IconsCollectionViewCell.xib */,
-			);
-			path = "Celulas Da Collection";
 			sourceTree = "<group>";
 		};
 		916A923B27C9C3E6000C30E0 /* CamadaDeServiço */ = {
@@ -174,6 +181,7 @@
 				916A923B27C9C3E6000C30E0 /* CamadaDeServiço */,
 				916A922127C9A89D000C30E0 /* Start */,
 				916A922227C9A8AF000C30E0 /* Home */,
+				91113E502803622700F9CFA4 /* Onboarding */,
 			);
 			path = resumin;
 			sourceTree = "<group>";
@@ -256,17 +264,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				916A923127C9B4F6000C30E0 /* TextoTableViewCell.xib in Resources */,
 				916A923A27C9BCA7000C30E0 /* IconsCollectionViewCell.xib in Resources */,
 				91EB9F0C27C861CB00B68D42 /* LaunchScreen.storyboard in Resources */,
 				916A922727C9AF1D000C30E0 /* Poppins-SemiBold.ttf in Resources */,
 				91EB9F0927C861CB00B68D42 /* Images.xcassets in Resources */,
 				916A922D27C9B158000C30E0 /* Poppins-Regular.ttf in Resources */,
+				91113E542803624600F9CFA4 /* OnboardingViewController.xib in Resources */,
+				91113E59280363A300F9CFA4 /* OnboardingPagesCollectionViewCell.xib in Resources */,
 				91EB9F0727C861CA00B68D42 /* Main.storyboard in Resources */,
-				916A922B27C9AF60000C30E0 /* LivroDoDiaTableViewCell.xib in Resources */,
 				9102718028026D2300EC1103 /* Colors.xcassets in Resources */,
 				91EB9F2927C8766500B68D42 /* HomeViewController.xib in Resources */,
-				91EB9F2D27C87F2700B68D42 /* CadaUmTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,14 +327,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				916A923F27C9C512000C30E0 /* ServicoDosLivros.swift in Sources */,
+				91113E4F28035C9100F9CFA4 /* HomeViewModel.swift in Sources */,
+				91113E58280363A300F9CFA4 /* OnboardingPagesCollectionViewCell.swift in Sources */,
 				916A923D27C9C400000C30E0 /* NetworkService.swift in Sources */,
 				91EB9F0427C861CA00B68D42 /* StartViewController.swift in Sources */,
+				91113E5B2803666400F9CFA4 /* OnboardingPageModel.swift in Sources */,
 				91EB9F0027C861CA00B68D42 /* AppDelegate.swift in Sources */,
-				916A923027C9B4F6000C30E0 /* TextoTableViewCell.swift in Sources */,
 				91EB9F0227C861CA00B68D42 /* SceneDelegate.swift in Sources */,
-				91EB9F2C27C87F2700B68D42 /* ResumosTableViewCell.swift in Sources */,
-				916A922A27C9AF60000C30E0 /* LivroDoDiaTableViewCell.swift in Sources */,
-				916A924127C9C716000C30E0 /* LivrosModel.swift in Sources */,
+				916A924127C9C716000C30E0 /* BooksModel.swift in Sources */,
+				91113E532803624600F9CFA4 /* OnboardingViewController.swift in Sources */,
 				91EB9F2827C8766500B68D42 /* HomeViewController.swift in Sources */,
 				916A923927C9BCA7000C30E0 /* IconsCollectionViewCell.swift in Sources */,
 			);

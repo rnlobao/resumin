@@ -12,7 +12,7 @@ struct AllBooks: Codable {
 }
 
 struct BooksModel: Codable {
-    let nome: String?
-    let capa: String?
-    let resumo: String?
+    let nome: String
+    let capa: String
+    let resumo: String
 }
