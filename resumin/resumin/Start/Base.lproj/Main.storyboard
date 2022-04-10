@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="08c-yb-gfx">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-SemiBold.ttf">
+            <string>Poppins-SemiBold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Start View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="StartViewController" customModule="resumin" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo+nome" translatesAutoresizingMaskIntoConstraints="NO" id="xfz-GK-DFJ">
+                                <rect key="frame" x="20" y="108" width="374" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="dAz-7a-dVz"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ilustracao1" translatesAutoresizingMaskIntoConstraints="NO" id="cdx-af-jk1">
+                                <rect key="frame" x="33" y="218" width="348" height="209"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="209" id="4sl-QI-sIf"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dobro do conhecimento, metade do tempo!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wgy-05-KOy">
+                                <rect key="frame" x="60" y="457" width="294" height="56"/>
+                                <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O9U-8h-WyV">
+                                <rect key="frame" x="60" y="544" width="294" height="56"/>
+                                <color key="backgroundColor" red="0.49019607843137253" green="0.49019607843137253" blue="0.49019607843137253" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="al6-kZ-cgU"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Entrar">
+                                    <fontDescription key="titleFontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="20"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="sendHandler:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BfV-3N-LZY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wgy-05-KOy" secondAttribute="trailing" constant="60" id="8MS-NZ-nYI"/>
+                            <constraint firstItem="xfz-GK-DFJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9CL-68-F7x"/>
+                            <constraint firstItem="cdx-af-jk1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="33" id="CTA-Vr-6f1"/>
+                            <constraint firstItem="xfz-GK-DFJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="Fxl-Ua-NSJ"/>
+                            <constraint firstItem="cdx-af-jk1" firstAttribute="top" secondItem="xfz-GK-DFJ" secondAttribute="bottom" constant="50" id="QcJ-D3-HrP"/>
+                            <constraint firstAttribute="trailing" secondItem="xfz-GK-DFJ" secondAttribute="trailing" constant="20" id="SAj-Kp-uOH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cdx-af-jk1" secondAttribute="trailing" constant="33" id="aOV-Ef-o00"/>
+                            <constraint firstItem="xfz-GK-DFJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="hMM-eg-1Ky"/>
+                            <constraint firstItem="O9U-8h-WyV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="imN-Dl-Lkr"/>
+                            <constraint firstItem="wgy-05-KOy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="ivi-Ps-CnY"/>
+                            <constraint firstItem="wgy-05-KOy" firstAttribute="top" secondItem="cdx-af-jk1" secondAttribute="bottom" constant="30" id="kbd-Ak-LHw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="O9U-8h-WyV" secondAttribute="trailing" constant="60" id="w9n-hq-rKg"/>
+                            <constraint firstItem="O9U-8h-WyV" firstAttribute="top" secondItem="wgy-05-KOy" secondAttribute="bottom" constant="31" id="wFA-io-yUL"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="3x3-bW-wRn"/>
+                    <connections>
+                        <outlet property="enterButton" destination="O9U-8h-WyV" id="epH-Xw-OwO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="944.92753623188412" y="86.383928571428569"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="898-tn-FVF">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="08c-yb-gfx" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="t4x-rD-tRv">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="SAB-N7-AhW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xIY-xg-OUT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="34.782608695652179" y="86.383928571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ilustracao1" width="325" height="209"/>
+        <image name="logo+nome" width="524" height="170"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -8,8 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		08E32E85612B90962AE95FF4 /* Pods_resumin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6A8A5F9264CC71F769F209E /* Pods_resumin.framework */; };
-		916A922527C9AC7B000C30E0 /* EaiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916A922327C9AC7B000C30E0 /* EaiTableViewCell.swift */; };
-		916A922627C9AC7B000C30E0 /* EaiTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 916A922427C9AC7B000C30E0 /* EaiTableViewCell.xib */; };
+		9102718028026D2300EC1103 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9102717F28026D2300EC1103 /* Colors.xcassets */; };
 		916A922727C9AF1D000C30E0 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91EB9F1E27C86EEC00B68D42 /* Poppins-SemiBold.ttf */; };
 		916A922A27C9AF60000C30E0 /* LivroDoDiaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916A922827C9AF60000C30E0 /* LivroDoDiaTableViewCell.swift */; };
 		916A922B27C9AF60000C30E0 /* LivroDoDiaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 916A922927C9AF60000C30E0 /* LivroDoDiaTableViewCell.xib */; };
@@ -23,12 +22,12 @@
 		916A924127C9C716000C30E0 /* LivrosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916A924027C9C716000C30E0 /* LivrosModel.swift */; };
 		91EB9F0027C861CA00B68D42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB9EFF27C861CA00B68D42 /* AppDelegate.swift */; };
 		91EB9F0227C861CA00B68D42 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB9F0127C861CA00B68D42 /* SceneDelegate.swift */; };
-		91EB9F0427C861CA00B68D42 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB9F0327C861CA00B68D42 /* HomeViewController.swift */; };
+		91EB9F0427C861CA00B68D42 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB9F0327C861CA00B68D42 /* StartViewController.swift */; };
 		91EB9F0727C861CA00B68D42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91EB9F0527C861CA00B68D42 /* Main.storyboard */; };
-		91EB9F0927C861CB00B68D42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91EB9F0827C861CB00B68D42 /* Assets.xcassets */; };
+		91EB9F0927C861CB00B68D42 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91EB9F0827C861CB00B68D42 /* Images.xcassets */; };
 		91EB9F0C27C861CB00B68D42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91EB9F0A27C861CB00B68D42 /* LaunchScreen.storyboard */; };
-		91EB9F2827C8766500B68D42 /* ResumosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB9F2627C8766500B68D42 /* ResumosViewController.swift */; };
-		91EB9F2927C8766500B68D42 /* ResumosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91EB9F2727C8766500B68D42 /* ResumosViewController.xib */; };
+		91EB9F2827C8766500B68D42 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB9F2627C8766500B68D42 /* HomeViewController.swift */; };
+		91EB9F2927C8766500B68D42 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91EB9F2727C8766500B68D42 /* HomeViewController.xib */; };
 		91EB9F2C27C87F2700B68D42 /* ResumosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB9F2A27C87F2700B68D42 /* ResumosTableViewCell.swift */; };
 		91EB9F2D27C87F2700B68D42 /* CadaUmTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91EB9F2B27C87F2700B68D42 /* CadaUmTableViewCell.xib */; };
 /* End PBXBuildFile section */
@@ -36,8 +35,7 @@
 /* Begin PBXFileReference section */
 		6CD2029D0A7A340F3EE8D6AB /* Pods-resumin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-resumin.debug.xcconfig"; path = "Target Support Files/Pods-resumin/Pods-resumin.debug.xcconfig"; sourceTree = "<group>"; };
 		72C6235DCDBFF4A37C75CA5A /* Pods-resumin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-resumin.release.xcconfig"; path = "Target Support Files/Pods-resumin/Pods-resumin.release.xcconfig"; sourceTree = "<group>"; };
-		916A922327C9AC7B000C30E0 /* EaiTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EaiTableViewCell.swift; sourceTree = "<group>"; };
-		916A922427C9AC7B000C30E0 /* EaiTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EaiTableViewCell.xib; sourceTree = "<group>"; };
+		9102717F28026D2300EC1103 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		916A922827C9AF60000C30E0 /* LivroDoDiaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivroDoDiaTableViewCell.swift; sourceTree = "<group>"; };
 		916A922927C9AF60000C30E0 /* LivroDoDiaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LivroDoDiaTableViewCell.xib; sourceTree = "<group>"; };
 		916A922C27C9B158000C30E0 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
@@ -51,14 +49,14 @@
 		91EB9EFC27C861CA00B68D42 /* resumin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = resumin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91EB9EFF27C861CA00B68D42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91EB9F0127C861CA00B68D42 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		91EB9F0327C861CA00B68D42 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		91EB9F0327C861CA00B68D42 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		91EB9F0627C861CA00B68D42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		91EB9F0827C861CB00B68D42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91EB9F0827C861CB00B68D42 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		91EB9F0B27C861CB00B68D42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91EB9F0D27C861CB00B68D42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91EB9F1E27C86EEC00B68D42 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
-		91EB9F2627C8766500B68D42 /* ResumosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumosViewController.swift; sourceTree = "<group>"; };
-		91EB9F2727C8766500B68D42 /* ResumosViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResumosViewController.xib; sourceTree = "<group>"; };
+		91EB9F2627C8766500B68D42 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		91EB9F2727C8766500B68D42 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		91EB9F2A27C87F2700B68D42 /* ResumosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumosTableViewCell.swift; sourceTree = "<group>"; };
 		91EB9F2B27C87F2700B68D42 /* CadaUmTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CadaUmTableViewCell.xib; sourceTree = "<group>"; };
 		D6A8A5F9264CC71F769F209E /* Pods_resumin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_resumin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,8 +85,6 @@
 		916A921F27C9A7EB000C30E0 /* CelulasTela2 */ = {
 			isa = PBXGroup;
 			children = (
-				916A922327C9AC7B000C30E0 /* EaiTableViewCell.swift */,
-				916A922427C9AC7B000C30E0 /* EaiTableViewCell.xib */,
 				916A922827C9AF60000C30E0 /* LivroDoDiaTableViewCell.swift */,
 				916A922927C9AF60000C30E0 /* LivroDoDiaTableViewCell.xib */,
 				916A922E27C9B4F6000C30E0 /* TextoTableViewCell.swift */,
@@ -103,7 +99,8 @@
 		916A922027C9A80C000C30E0 /* Aplication */ = {
 			isa = PBXGroup;
 			children = (
-				91EB9F0827C861CB00B68D42 /* Assets.xcassets */,
+				91EB9F0827C861CB00B68D42 /* Images.xcassets */,
+				9102717F28026D2300EC1103 /* Colors.xcassets */,
 				91EB9EFF27C861CA00B68D42 /* AppDelegate.swift */,
 				91EB9F0127C861CA00B68D42 /* SceneDelegate.swift */,
 				91EB9F0A27C861CB00B68D42 /* LaunchScreen.storyboard */,
@@ -112,23 +109,24 @@
 			path = Aplication;
 			sourceTree = "<group>";
 		};
-		916A922127C9A89D000C30E0 /* Tela1 */ = {
+		916A922127C9A89D000C30E0 /* Start */ = {
 			isa = PBXGroup;
 			children = (
-				91EB9F0327C861CA00B68D42 /* HomeViewController.swift */,
+				91EB9F0327C861CA00B68D42 /* StartViewController.swift */,
 				91EB9F0527C861CA00B68D42 /* Main.storyboard */,
 			);
-			path = Tela1;
+			path = Start;
 			sourceTree = "<group>";
 		};
-		916A922227C9A8AF000C30E0 /* Tela2 */ = {
+		916A922227C9A8AF000C30E0 /* Home */ = {
 			isa = PBXGroup;
 			children = (
 				916A921F27C9A7EB000C30E0 /* CelulasTela2 */,
-				91EB9F2627C8766500B68D42 /* ResumosViewController.swift */,
-				91EB9F2727C8766500B68D42 /* ResumosViewController.xib */,
+				91EB9F2627C8766500B68D42 /* HomeViewController.swift */,
+				916A924027C9C716000C30E0 /* LivrosModel.swift */,
+				91EB9F2727C8766500B68D42 /* HomeViewController.xib */,
 			);
-			path = Tela2;
+			path = Home;
 			sourceTree = "<group>";
 		};
 		916A923627C9B6D8000C30E0 /* Celulas Da Collection */ = {
@@ -148,14 +146,6 @@
 			);
 			name = "CamadaDeServiço";
 			path = "CamadaDeServiço";
-			sourceTree = "<group>";
-		};
-		916A924227C9C71D000C30E0 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				916A924027C9C716000C30E0 /* LivrosModel.swift */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		91EB9EF327C861CA00B68D42 = {
@@ -182,9 +172,8 @@
 				91EB9F0D27C861CB00B68D42 /* Info.plist */,
 				916A922027C9A80C000C30E0 /* Aplication */,
 				916A923B27C9C3E6000C30E0 /* CamadaDeServiço */,
-				916A922127C9A89D000C30E0 /* Tela1 */,
-				916A922227C9A8AF000C30E0 /* Tela2 */,
-				916A924227C9C71D000C30E0 /* Model */,
+				916A922127C9A89D000C30E0 /* Start */,
+				916A922227C9A8AF000C30E0 /* Home */,
 			);
 			path = resumin;
 			sourceTree = "<group>";
@@ -271,12 +260,12 @@
 				916A923A27C9BCA7000C30E0 /* IconsCollectionViewCell.xib in Resources */,
 				91EB9F0C27C861CB00B68D42 /* LaunchScreen.storyboard in Resources */,
 				916A922727C9AF1D000C30E0 /* Poppins-SemiBold.ttf in Resources */,
-				91EB9F0927C861CB00B68D42 /* Assets.xcassets in Resources */,
+				91EB9F0927C861CB00B68D42 /* Images.xcassets in Resources */,
 				916A922D27C9B158000C30E0 /* Poppins-Regular.ttf in Resources */,
 				91EB9F0727C861CA00B68D42 /* Main.storyboard in Resources */,
 				916A922B27C9AF60000C30E0 /* LivroDoDiaTableViewCell.xib in Resources */,
-				916A922627C9AC7B000C30E0 /* EaiTableViewCell.xib in Resources */,
-				91EB9F2927C8766500B68D42 /* ResumosViewController.xib in Resources */,
+				9102718028026D2300EC1103 /* Colors.xcassets in Resources */,
+				91EB9F2927C8766500B68D42 /* HomeViewController.xib in Resources */,
 				91EB9F2D27C87F2700B68D42 /* CadaUmTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,16 +321,15 @@
 			files = (
 				916A923F27C9C512000C30E0 /* ServicoDosLivros.swift in Sources */,
 				916A923D27C9C400000C30E0 /* NetworkService.swift in Sources */,
-				91EB9F0427C861CA00B68D42 /* HomeViewController.swift in Sources */,
+				91EB9F0427C861CA00B68D42 /* StartViewController.swift in Sources */,
 				91EB9F0027C861CA00B68D42 /* AppDelegate.swift in Sources */,
 				916A923027C9B4F6000C30E0 /* TextoTableViewCell.swift in Sources */,
 				91EB9F0227C861CA00B68D42 /* SceneDelegate.swift in Sources */,
 				91EB9F2C27C87F2700B68D42 /* ResumosTableViewCell.swift in Sources */,
 				916A922A27C9AF60000C30E0 /* LivroDoDiaTableViewCell.swift in Sources */,
 				916A924127C9C716000C30E0 /* LivrosModel.swift in Sources */,
-				91EB9F2827C8766500B68D42 /* ResumosViewController.swift in Sources */,
+				91EB9F2827C8766500B68D42 /* HomeViewController.swift in Sources */,
 				916A923927C9BCA7000C30E0 /* IconsCollectionViewCell.swift in Sources */,
-				916A922527C9AC7B000C30E0 /* EaiTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
