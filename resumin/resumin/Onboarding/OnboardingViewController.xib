@@ -11,6 +11,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OnboardingViewController" customModule="resumin" customModuleProvider="target">
             <connections>
                 <outlet property="collectionView" destination="9H6-gY-Qeo" id="vkq-y1-x1v"/>
+                <outlet property="onboardingButton" destination="ZpT-jy-KjP" id="f0l-Y6-gYj"/>
                 <outlet property="pageControl" destination="YfH-l9-MGK" id="uAi-Sm-LVd"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -20,31 +21,49 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="9H6-gY-Qeo">
-                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="9H6-gY-Qeo">
+                    <rect key="frame" x="0.0" y="44" width="414" height="538"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ztq-hB-27p">
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="ztq-hB-27p">
                         <size key="itemSize" width="128" height="128"/>
                         <size key="headerReferenceSize" width="0.0" height="0.0"/>
                         <size key="footerReferenceSize" width="0.0" height="0.0"/>
                         <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                     </collectionViewFlowLayout>
                 </collectionView>
-                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="YfH-l9-MGK">
+                <pageControl opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="YfH-l9-MGK">
                     <rect key="frame" x="149.5" y="613" width="115.5" height="26"/>
                     <color key="pageIndicatorTintColor" red="0.89803921568627454" green="0.89803921568627454" blue="0.89803921568627454" alpha="1" colorSpace="calibratedRGB"/>
                     <color key="currentPageIndicatorTintColor" red="0.76862745098039209" green="0.76862745098039209" blue="0.76862745098039209" alpha="1" colorSpace="calibratedRGB"/>
                 </pageControl>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZpT-jy-KjP">
+                    <rect key="frame" x="58" y="715" width="298" height="56"/>
+                    <color key="backgroundColor" red="0.49019607840000001" green="0.49019607840000001" blue="0.49019607840000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="56" id="mog-c4-Qft"/>
+                    </constraints>
+                    <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Próximo">
+                        <fontDescription key="titleFontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="20"/>
+                    </buttonConfiguration>
+                    <connections>
+                        <action selector="buttonAction:" destination="-1" eventType="touchUpInside" id="yta-fZ-pHG"/>
+                    </connections>
+                </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
                 <constraint firstItem="9H6-gY-Qeo" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="0Xz-cy-QqN"/>
                 <constraint firstItem="9H6-gY-Qeo" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="0n3-Ht-Le6"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="YfH-l9-MGK" secondAttribute="bottom" constant="223" id="3KV-cg-QXW"/>
                 <constraint firstItem="YfH-l9-MGK" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="3d9-mS-F95"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="9H6-gY-Qeo" secondAttribute="bottom" id="CfE-Qf-AJW"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="ZpT-jy-KjP" secondAttribute="bottom" constant="91" id="71f-ch-yPV"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="9H6-gY-Qeo" secondAttribute="bottom" constant="280" id="CfE-Qf-AJW"/>
+                <constraint firstItem="ZpT-jy-KjP" firstAttribute="top" secondItem="YfH-l9-MGK" secondAttribute="bottom" constant="76" id="HhQ-C5-th4"/>
+                <constraint firstItem="ZpT-jy-KjP" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="58" id="T87-1r-ayQ"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="9H6-gY-Qeo" secondAttribute="trailing" id="daa-8L-lg2"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ZpT-jy-KjP" secondAttribute="trailing" constant="58" id="ecw-iC-PBR"/>
             </constraints>
             <point key="canvasLocation" x="137.68115942028987" y="83.705357142857139"/>
         </view>

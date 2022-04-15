@@ -11,9 +11,23 @@ class OnboardingViewController: UIViewController {
 
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var pageControl: UIPageControl!
+    @IBOutlet weak var onboardingButton: UIButton!
     var onboardingPage: [OnboardingPageModel] = []
     var currentPage = 0 {
         didSet {
+            let titleProximo = NSMutableAttributedString(string: "Próximo", attributes: [
+                NSAttributedString.Key.font: UIFont(name: "Poppins-SemiBold", size: 20)!,
+            ])
+            let titleEntrar = NSMutableAttributedString(string: "Entrar", attributes: [
+                NSAttributedString.Key.font: UIFont(name: "Poppins-SemiBold", size: 20)!,
+            ])
+            
+            if currentPage == onboardingPage.count - 1 {
+                onboardingButton.setAttributedTitle(titleEntrar, for: .normal)
+            } else {
+                onboardingButton.setAttributedTitle(titleProximo, for: .normal)
+
+            }
             pageControl.currentPage = currentPage
         }
     }
@@ -22,24 +36,30 @@ class OnboardingViewController: UIViewController {
         super.viewDidLoad()
         setupCollectionView()
         setupPages()
+        setupDefaultButton()
     }
     
-    func setupCollectionView() {
+    private func setupCollectionView() {
         collectionView.delegate = self
         collectionView.dataSource = self
         collectionView.register(UINib(nibName: "OnboardingPagesCollectionViewCell", bundle: Bundle(for: OnboardingViewController.self)), forCellWithReuseIdentifier: "OnboardingPagesCollectionViewCell")
     }
 
-    func setupPages() {
+    private func setupPages() {
         onboardingPage = [
-            OnboardingPageModel(title: "Leia de qualquer lugar!", description: "Baixe seus livros favoritos e aproveite a vontade :)", image: UIImage(named: "barberBook")!, imageBounds: CGSize(width: 391, height: 248), buttonTitle: "Próximo", topDistance: 120),
-            OnboardingPageModel(title: "Todas as melhores ideias na palma da sua mão.", description: "10 minutos, tudo que é necessário para se manter informado.", image: UIImage(named: "girlReadingBook")!, imageBounds: CGSize(width: 312, height: 322), buttonTitle: "Próximo", topDistance: 52),
-            OnboardingPageModel(title: "Seja o mais sábio da sua rodinha de amigos", description: "Máxima efetividade pelo seu tempo de dedicação.", image: UIImage(named: "boyAndPhone")!, imageBounds: CGSize(width: 312, height: 281), buttonTitle: "Entrar", topDistance: 68)
+            OnboardingPageModel(title: "Leia de qualquer lugar!", description: "Baixe seus livros favoritos e aproveite a vontade :)", image: UIImage(named: "barberBook")!),
+            OnboardingPageModel(title: "Todas as melhores ideias na palma da sua mão.", description: "10 minutos, tudo que é necessário para se manter informado.", image: UIImage(named: "girlReadingBook")!),
+            OnboardingPageModel(title: "Seja o mais sábio da sua rodinha de amigos", description: "Máxima efetividade pelo seu tempo de dedicação.", image: UIImage(named: "boyAndPhone")!)
         ]
     }
-
     
-
+    @IBAction func buttonAction(_ sender: Any) {
+    }
+    
+    private func setupDefaultButton() {
+        onboardingButton.layer.cornerRadius = 20
+    }
+    
 }
 
 extension OnboardingViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {

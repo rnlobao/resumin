@@ -18,70 +18,49 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="OnboardingPagesCollectionViewCell" id="gTV-IL-0wX" customClass="OnboardingPagesCollectionViewCell" customModule="resumin" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="430" height="638"/>
+            <rect key="frame" x="0.0" y="0.0" width="430" height="414"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                <rect key="frame" x="0.0" y="0.0" width="430" height="638"/>
+                <rect key="frame" x="0.0" y="0.0" width="430" height="414"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8k0-Cv-Gex">
-                        <rect key="frame" x="165" y="100" width="100" height="100"/>
-                        <constraints>
-                            <constraint firstAttribute="height" constant="100" id="Iyh-0x-Qr3"/>
-                            <constraint firstAttribute="width" constant="100" id="kwC-WT-dCC"/>
-                        </constraints>
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="316"/>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6e2-Bd-sFe">
-                        <rect key="frame" x="64" y="221" width="302" height="28"/>
+                        <rect key="frame" x="64" y="337" width="302" height="28"/>
                         <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="20"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A9j-ET-uCG">
-                        <rect key="frame" x="64" y="270" width="302" height="28"/>
+                        <rect key="frame" x="64" y="386" width="302" height="28"/>
                         <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="20"/>
                         <color key="textColor" red="0.30588235294117649" green="0.30588235294117649" blue="0.30588235294117649" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SLa-X8-Fdz">
-                        <rect key="frame" x="58" y="491" width="314" height="56"/>
-                        <color key="backgroundColor" red="0.49019607843137253" green="0.49019607843137253" blue="0.49019607843137253" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstAttribute="height" constant="56" id="w3n-nz-eis"/>
-                        </constraints>
-                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                        <state key="normal" title="Button"/>
-                        <buttonConfiguration key="configuration" style="plain" title="Button">
-                            <fontDescription key="titleFontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="20"/>
-                        </buttonConfiguration>
-                    </button>
                 </subviews>
             </view>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <constraints>
-                <constraint firstAttribute="trailing" secondItem="SLa-X8-Fdz" secondAttribute="trailing" constant="58" id="7kY-eE-nwK"/>
-                <constraint firstItem="SLa-X8-Fdz" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="58" id="DGf-hd-rIE"/>
+                <constraint firstAttribute="bottom" secondItem="A9j-ET-uCG" secondAttribute="bottom" id="2fp-e6-WcT"/>
                 <constraint firstItem="A9j-ET-uCG" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="64" id="O0X-yZ-7rn"/>
-                <constraint firstItem="8k0-Cv-Gex" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="100" id="PVz-86-xWo"/>
+                <constraint firstAttribute="trailing" secondItem="8k0-Cv-Gex" secondAttribute="trailing" id="Qhm-7u-7kU"/>
                 <constraint firstItem="A9j-ET-uCG" firstAttribute="top" secondItem="6e2-Bd-sFe" secondAttribute="bottom" constant="21" id="WCG-ol-HDe"/>
-                <constraint firstAttribute="bottom" secondItem="SLa-X8-Fdz" secondAttribute="bottom" constant="91" id="Zbj-uk-YC1"/>
-                <constraint firstItem="8k0-Cv-Gex" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="hiV-N2-c7W"/>
+                <constraint firstItem="8k0-Cv-Gex" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="fPe-oi-bMX"/>
                 <constraint firstAttribute="trailing" secondItem="6e2-Bd-sFe" secondAttribute="trailing" constant="64" id="lq6-Fv-jK5"/>
                 <constraint firstItem="6e2-Bd-sFe" firstAttribute="top" secondItem="8k0-Cv-Gex" secondAttribute="bottom" constant="21" id="oMp-19-Z7r"/>
+                <constraint firstItem="8k0-Cv-Gex" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="quI-KD-CPg"/>
                 <constraint firstItem="6e2-Bd-sFe" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="64" id="y4Y-6m-QOR"/>
                 <constraint firstAttribute="trailing" secondItem="A9j-ET-uCG" secondAttribute="trailing" constant="64" id="yZ8-HR-JVK"/>
             </constraints>
-            <size key="customSize" width="430" height="638"/>
+            <size key="customSize" width="430" height="414"/>
             <connections>
                 <outlet property="descriptionLabel" destination="A9j-ET-uCG" id="kkF-WW-W7l"/>
-                <outlet property="imageHeight" destination="Iyh-0x-Qr3" id="i51-nY-JO1"/>
-                <outlet property="imageTopDistance" destination="PVz-86-xWo" id="DKE-0k-Btg"/>
                 <outlet property="imageView" destination="8k0-Cv-Gex" id="Rq1-vH-KiG"/>
-                <outlet property="imageWidth" destination="kwC-WT-dCC" id="prW-HQ-43P"/>
-                <outlet property="onboardingButton" destination="SLa-X8-Fdz" id="8F9-sj-LuF"/>
                 <outlet property="titleLabel" destination="6e2-Bd-sFe" id="HXb-oM-tqv"/>
             </connections>
-            <point key="canvasLocation" x="292.75362318840581" y="149.33035714285714"/>
+            <point key="canvasLocation" x="292.75362318840581" y="74.330357142857139"/>
         </collectionViewCell>
     </objects>
 </document>
